@@ -1,3 +1,39 @@
 * {
-	font-family: 'Raleway', sans-serif !important;
+	font-weight: 100 !important;
+}
+
+
+#nav{
+	background: #27586B;
+	color: #52CFFF;
+}
+
+#header{
+	background: #27586B;
+	color: #52CFFF;
+}
+
+#tree{
+	background: #FFF;
+	color: #142C35;
+}
+
+#cup{
+	background: rgba(41, 123, 72, .7);
+	color: #4AFF8D;
+}
+
+
+
+.icon-container-left{
+	padding: 4% 0% 4% 4%;
+}
+
+.icon-container-right{
+	padding: 4% 4% 4% 0%;
+}
+
+
+img{
+	vertical-align: middle;
 }
