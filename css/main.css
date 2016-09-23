@@ -2,15 +2,38 @@
 	font-weight: 100 !important;
 }
 
+#header{
+	display: block;
+	color: #FFF;
+	background: #52CFFF;
 
-#nav{
-	background: #27586B;
+	background-image: url("../img/arun.jpg");
+	background-attachment: fixed;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header a{
+	color: #FFF;
+}
+
+#header-text{
+	margin-top: 15rem;
+	margin-bottom: 15rem;
+}
+
+#footer{
 	color: #52CFFF;
 }
 
-#header{
-	background: #27586B;
+#footer a{
 	color: #52CFFF;
+}
+
+#projects{
+	background: #AA7439;
+	color: #553B1E;
 }
 
 #tree{
@@ -18,12 +41,31 @@
 	color: #142C35;
 }
 
+#tree-modal{
+	color: #27586B;
+}
+
 #cup{
 	background: rgba(41, 123, 72, .7);
 	color: #4AFF8D;
 }
 
+#scream{
+	color: #142C35;
+}
 
+#footer{
+	background: #3783A0;
+}
+
+
+.name{
+	font-size: 4rem;
+}
+
+.occupation{
+	font-size: 2rem;
+}
 
 .icon-container-left{
 	padding: 4% 0% 4% 4%;
@@ -33,7 +75,79 @@
 	padding: 4% 4% 4% 0%;
 }
 
+.title{
+	margin-top: 30%;
+}
 
 img{
 	vertical-align: middle;
 }
+
+.modal{
+	max-width: 90%;
+}
+
+.modal iframe{
+	width: 100%;
+	height: 400px;
+}
+
+.tree-icon{
+	background-image: url("../img/portfolio/tree_icon.jpg");	
+}
+
+.cup-icon{
+	background-image: url("../img/portfolio/cup.jpg");
+}
+
+.scream-icon{
+	background-image: url("../img/portfolio/bagpipe.jpg");
+}
+
+.icon-left{
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+
+    border-radius: 50%;
+
+    padding-bottom: 100%;
+}
+
+.icon-right{
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 120%;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+
+    border-radius: 50%;
+
+    padding-bottom: 100%;
+}
+
+@media only screen and (max-width: 700px){
+
+	.icon-right{
+		background-position: 0%;
+	}
+}
+
+@media only screen and (max-width: 500px){
+
+	.title{
+		margin-top: 20%;
+	}
+
+	#tree .title{
+		margin-top: 30%;
+	}
+
+	.subtitle{
+		display: none;
+	}
+} 

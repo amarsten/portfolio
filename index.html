@@ -8,50 +8,74 @@
     <meta name="author" content="">
 	<title>Arun Marsten's Portfolio</title>
 	<link href="https://npmcdn.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/8039d4aae3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/jquery.modal.min.css" type="text/css" media="screen" />
+    <link href="css/main.css" rel="stylesheet">
 </head>
-<body class="aqua">
-<div id="nav" class="clearfix p2">
-  <div class="left">
-    <a href="#!" class="btn py2 m0">Work</a>
-    <a href="#!" class="btn button-narrow py2 m0">About</a>
-    <a href="#!" class="btn button-narrow py2 m0">Resume</a>
-  </div>
-  <div class="right">
-  </div>
-</div>
-<div id="header" class="clearfix py4">
-    <img class="circle block mx-auto" src="img/bike_square.jpg" width="160px">
-    <h1 class="center">Arun Marsten</h1>
-    <h3 class="center">Creative Technologist</h3>
-</div>
-<div id="tree" class="clearfix m0">
-    <div class="col col-5 icon-container-left">
-        <img class="circle m0" src="img/portfolio/tree_icon.jpg">
+<body>
+<div id="header" class="clearfix m0">
+    <div class="left">
+        <a href="" class="btn button-narrow py2 m0">About</a>
+        <a href="ArunsResume.pdf" class="btn button-narrow py2 m0">Resume</a>
+      </div>
+      <div class="right">
+        <a href="http://www.linkedin.com/in/amarsten">
+            <i class="fa fa-linkedin btn py2 " aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/amarsten">
+            <i class="fa fa-github btn py2" aria-hidden="true"></i>
+        </a>
     </div>
-    <div class="col col-7">
-		<h1 class="center mt4">Tree of Light</h1>
-		<p class="italic center">An interactive light and sound sculpture</p>
-	</div>
-</div>
-<div id="cup" class="clearfix m0">
-    <div class="col col-7">
-		<h1 class="center mt4">Destination Constellation</h1>
-		<p class="italic center">A to-go cup that tells you where to go</p>
-	</div>
-    <div class="col col-5 icon-container-right">
-        <img class="circle m0" src="img/portfolio/cup.jpg">
+    <div id="header-text">
+        <h1 class="center name">Arun Marsten</h1>
+        <p class="italic center occupation">Creative Technologist</p>
     </div>
 </div>
-<div id="scream" class="clearfix m0">
-    <div class="col col-5 icon-container-left">
-        <img class="circle m0" src="img/portfolio/emoji.jpg">
+<a href="tree.html" rel="modal:open">
+    <div id="tree" class="clearfix m0">
+        <div class="col col-5 icon-container-left">
+            <div class="icon-left tree-icon"></div>
+        </div>
+        <div class="col col-7">
+    		<h1 class="center title">Tree of Light</h1>
+    		<p class="italic center subtitle">An interactive light and sound sculpture</p>
+    	</div>
     </div>
-    <div class="col col-7">
-		<h1 class="center mt4">Screaming Bagpipes</h1>
-		<p class="italic center">A personal expression of school spirit</p>
-	</div>
+</a>
+<a href="cup.html" rel="modal:open">
+    <div id="cup" class="clearfix m0">
+        <div class="col col-7 ">
+    		<h1 class="center title">Destination Constellation</h1>
+    		<p class="italic center subtitle">A to-go cup that tells you where to go</p>
+    	</div>
+        <div class="col col-5 cup icon-container-right">
+            <div class="icon-right cup-icon"></div>
+        </div>
+    </div>
+</a>
+<a href="scream.html" rel="modal:open">
+    <div id="scream" class="clearfix m0">
+        <div class="col col-5 icon-container-left">
+            <div class="icon-left scream-icon"></div>
+        </div>
+        <div class="col col-7">
+    		<h1 class="center title">Screaming Bagpipes</h1>
+    		<p class="italic center subtitle">A personal expression of school spirit</p>
+    	</div>
+    </div>
+</a>
+<div id="footer" class="clearfix py3">
+    <div id="social-icons" class="center mb2">
+        <a href="http://www.linkedin.com/in/amarsten">
+        <i class="fa fa-linkedin fa-2x btn py2 " aria-hidden="true"></i>
+    </a>
+    <a href="https://github.com/amarsten">
+        <i class="fa fa-github fa-2x btn py2" aria-hidden="true"></i>
+    </a>
+    </div>
+    <p class="center"> All Content ©2016 Arun Marsten </p>
 </div>
 
 </body>
