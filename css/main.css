@@ -3,13 +3,11 @@
 }
 
 #header{
-	display: block;
 	color: #FFF;
-	background: #52CFFF;
 
 	background-image: url("../img/arun.jpg");
 	background-attachment: fixed;
-    background-position: 50% 40%;
+    background-position: 50% 30%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,8 +17,10 @@
 }
 
 #header-text{
-	margin-top: 15rem;
-	margin-bottom: 15rem;
+	overflow: hidden;
+	padding-top: 300px;
+	padding-bottom: 50px;
+	padding-right: 30px;
 }
 
 #footer{
@@ -61,10 +61,12 @@
 
 .name{
 	font-size: 4rem;
+	margin-bottom: 0;
 }
 
 .occupation{
 	font-size: 2rem;
+	clear: right;
 }
 
 .icon-container-left{
