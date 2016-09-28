@@ -1,13 +1,11 @@
-* {
-	font-weight: 100 !important;
-}
 
+/*IDs*/
 #header{
 	color: #FFF;
 
 	background-image: url("../img/arun.jpg");
 	background-attachment: fixed;
-    background-position: 50% 30%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,11 +14,34 @@
 	color: #FFF;
 }
 
+#nav{
+}
+
 #header-text{
-	overflow: hidden;
-	padding-top: 300px;
-	padding-bottom: 50px;
-	padding-right: 30px;
+	border-radius: 50%;
+	margin-top: 25%;
+    margin-bottom: 10%;
+    padding: 10% 10% 10% 10%;
+	background: white;
+	width: 180px;
+	height: 180px;
+}
+
+#name-container{
+	width: 500px;
+}
+
+#name{
+	font-size: 50px;
+
+	background-image: url("../img/arun.jpg");
+	background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 #footer{
@@ -59,16 +80,7 @@
 }
 
 
-.name{
-	font-size: 4rem;
-	margin-bottom: 0;
-}
-
-.occupation{
-	font-size: 2rem;
-	clear: right;
-}
-
+/*CLASSES*/
 .icon-container-left{
 	padding: 4% 0% 4% 4%;
 }
@@ -132,6 +144,11 @@ img{
     padding-bottom: 100%;
 }
 
+.btn, h1, p, td{
+	font-weight: 100;
+}
+
+/*MEDIA QUERIES*/
 @media only screen and (max-width: 700px){
 
 	.icon-right{
@@ -151,5 +168,10 @@ img{
 
 	.subtitle{
 		display: none;
+	}
+
+	#header{
+		background-position: initial;
+
 	}
 } 
