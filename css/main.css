@@ -1,31 +1,12 @@
 
-/*IDs*/
-#header{
-	color: #FFF;
+/*******************************************************************************************/
+/**************************************IDs**************************************************/
+/*******************************************************************************************/
 
-	background-image: url("../img/arun.jpg");
-	background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#header a{
-	color: #FFF;
-}
-
-#header a:hover{
-	text-decoration: none;
-	color: #000;
-}
-
-#nav{
-}
-
-#header-text{
+#name-background{
 	border-radius: 50%;
 	margin-top: 25%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     padding: 10% 10% 10% 10%;
 	background: white;
 	width: 200px;
@@ -36,76 +17,122 @@
 	display: inline-block;
 }
 
-#name{
-	font-size: 50px;
-	font-weight: 700;
-
-	background-image: url("../img/arun.jpg");
-	background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-#occupation{
-	font-size: 20px;
-	font-weight: 400;
-
-	background-image: url("../img/arun.jpg");
-	background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-#footer{
-	color: #52CFFF;
-}
-
-#footer a{
-	color: #52CFFF;
-}
-
-#footer a:hover{
-	text-decoration: none;
-	color: #FFF;
-}
-
-#projects{
-	background: #AA7439;
-	color: #553B1E;
-}
-
 #tree{
 	background: #FFF;
 	color: #142C35;
 }
 
-#tree-modal{
-	color: #27586B;
-}
-
 #cup{
-	background: rgba(41, 123, 72, .7);
-	color: #4AFF8D;
+	background: #FD8D73;
+	color: #A76555;
 }
 
 #scream{
 	color: #142C35;
 }
 
-#footer{
-	background: #3783A0;
+#typable{
+	background: rgba(253, 193, 115, 1);
+	color: #A78355;
+}
+
+#about-me{
+	padding: 0% 15% 2% 15%;
+
+}
+
+/*******************************************************************************************/
+/**********************************CLASSES**************************************************/
+/*******************************************************************************************/
+.name{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.occupation{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.knockout{
+	background-image: url("../img/arun.jpg");
+	background-attachment: fixed;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.about.nav{
+	margin-bottom: 35%;
+}
+
+.header{
+	color: #FFF;
+
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project{
+	background-image: url("../img/arun.jpg");
+	background-position: 50% 40%;
+}
+
+.about{
+	background-image: url("../img/about.jpg");
+	background-position: 50% 50%;
+}
+
+.nav a{
+	color: #FFF;
+}
+
+.nav a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+.project-footer{
+	background: #4F80A2;
+	color: #96CEF6;
+}
+
+.project-footer a{
+	color: #96CEF6;
+}
+
+.project-footer a:hover{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.about-footer{
+	color: #FFF;
+
+	padding-top: 10%;
+
+	background-image: url("../img/about.jpg");
+	background-position: 50% 65%;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-footer a{
+	color: #FFF;
+}
+
+.about-footer a:hover{
+	text-decoration: none;
+	color: #000;
 }
 
 
-/*CLASSES*/
+/*PROJECT ICONS*/
 .icon-container-left{
 	padding: 4% 0% 4% 4%;
 }
@@ -122,6 +149,8 @@ img{
 	vertical-align: middle;
 }
 
+
+/*MODALS*/
 .modal{
 	max-width: 90%;
 }
@@ -140,7 +169,11 @@ img{
 }
 
 .scream-icon{
-	background-image: url("../img/portfolio/bagpipe.jpg");
+	background-image: url("../img/portfolio/max.png");
+}
+
+.typable-icon{
+	background-image: url("../img/portfolio/letters.png");
 }
 
 .icon-left{
@@ -169,6 +202,10 @@ img{
     padding-bottom: 100%;
 }
 
+.modal{
+	color: #27586B;
+}
+
 .btn, h1, p, td{
 	font-weight: 100;
 }
@@ -195,8 +232,13 @@ img{
 		display: none;
 	}
 
-	#header{
-		background-position: initial;
+	.header{
+		background-size: initial;
+		background-position: 70% 50%;
+	}
 
+	.knockout{
+		background-size: initial;
+		background-position: 70% 50%;
 	}
 } 
