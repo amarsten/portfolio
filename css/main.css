@@ -213,7 +213,7 @@ img{
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 700px){
 
-	.icon-right{
+    .icon-right{
 		background-position: 0%;
 	}
 }
@@ -224,7 +224,7 @@ img{
 		margin-top: 20%;
 	}
 
-	#tree .title{
+	#tree .title, #typable .title{
 		margin-top: 30%;
 	}
 
@@ -237,8 +237,49 @@ img{
 		background-position: 70% 50%;
 	}
 
-	.knockout{
-		background-size: initial;
-		background-position: 70% 50%;
+	.icon-left{
+		background-attachment: scroll;
+		background-position: 30%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+
+		border-radius: 50%;
+
+		padding-bottom: 100%;
 	}
+
+	#scream .icon-left{
+		background-size: 115%;
+	}
+
+	.icon-right{
+		background-attachment: scroll;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+
+		border-radius: 50%;
+
+		padding-bottom: 100%;
+	}
+
+	.knockout{
+		background-image: url("../img/arun.jpg");
+		background-attachment: scroll;
+		background-position: 50% 70%;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+	}
+
+	.header{
+		color: #FFF;
+
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: initial;
+	}
+
 } 
