@@ -116,7 +116,7 @@
 	padding-top: 10%;
 
 	background-image: url("../img/about.jpg");
-	background-position: 50% 65%;
+	background-position: 50% 45%;
 	background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,11 +153,16 @@ img{
 /*MODALS*/
 .modal{
 	max-width: 90%;
+	color: #27586B;
 }
 
 .modal iframe{
 	width: 100%;
 	height: 400px;
+}
+
+.modal video{
+	width: 30%;
 }
 
 .tree-icon{
@@ -202,23 +207,30 @@ img{
     padding-bottom: 100%;
 }
 
-.modal{
-	color: #27586B;
-}
-
 .btn, h1, p, td{
 	font-weight: 100;
 }
 
+.scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
+
+	/* important:  dimensions or positioning here! */
+}
+
+.scroll-wrapper iframe {
+	/* nada! */
+}
+
 /*MEDIA QUERIES*/
-@media only screen and (max-width: 700px){
+/*@media only screen and (max-width: 700px){
 
     .icon-right{
 		background-position: 0%;
 	}
-}
+}*/
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 700px){
 
 	.title{
 		margin-top: 20%;
@@ -235,6 +247,10 @@ img{
 	.header{
 		background-size: initial;
 		background-position: 70% 50%;
+	}
+
+	.about.header{
+		background-position: 73% 46%;
 	}
 
 	.icon-left{
@@ -282,4 +298,67 @@ img{
 		background-size: initial;
 	}
 
+	.about-footer {
+	    color: #FFF;
+	    padding-top: 10%;
+	    background-image: url(../img/about.jpg);
+	    background-position: 73% 100%;
+	    background-attachment: scroll;
+	    background-repeat: no-repeat;
+	    background-size: initial;
+	}
+
+	.modal iframe{
+	    height: initial;
+    }
+
+    video{
+    	width: 80%
+    }
+
+    .btn{
+    	font-weight: 200;
+    }
+
+    .project-footer p, .about-footer p{
+    	font-weight: 200;
+    }
+
+
 } 
+
+@media only screen and (min-width: 1400px){
+
+	.icon-left{
+		background-size: cover;
+	}
+
+	#scream .icon-left{
+		background-size: 115%;
+	}
+
+	.icon-right{
+		background-size: cover;
+	}
+
+}
+
+/*@media only screen and (min-width : 321px) {
+	.header{
+		background-size: initial;
+	}
+
+	.icon-left{
+		background-size: cover;
+	}
+
+	#scream .icon-left{
+		background-size: 115%;
+	}
+
+	.icon-right{
+		background-size: cover;
+	}
+
+
+}*/
