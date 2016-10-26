@@ -184,10 +184,8 @@ img{
 .icon-left{
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 0%;
     background-repeat: no-repeat;
-    background-size: 700px 700px;
+    background-size: 100%;
 
     border-radius: 50%;
 
@@ -197,10 +195,8 @@ img{
 .icon-right{
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 120%;
     background-repeat: no-repeat;
-    background-size: 700px 700px;
+    background-size: 100%;
 
     border-radius: 50%;
 
