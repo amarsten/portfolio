@@ -1,0 +1,360 @@
+
+/*******************************************************************************************/
+/**************************************IDs**************************************************/
+/*******************************************************************************************/
+
+#name-background{
+	border-radius: 50%;
+	margin-top: 25%;
+    margin-bottom: 8%;
+    padding: 10% 10% 10% 10%;
+	background: white;
+	width: 200px;
+	height: 200px;
+}
+
+#name-container{
+	display: inline-block;
+}
+
+#tree{
+	background: #FFF;
+	color: #142C35;
+}
+
+#cup{
+	background: #FD8D73;
+	color: #A76555;
+}
+
+#scream{
+	color: #142C35;
+}
+
+#typable{
+	background: rgba(253, 193, 115, 1);
+	color: #A78355;
+}
+
+#about-me{
+	padding: 0% 15% 2% 15%;
+
+}
+
+/*******************************************************************************************/
+/**********************************CLASSES**************************************************/
+/*******************************************************************************************/
+.name{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.occupation{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.knockout{
+	background-image: url("../img/arun.jpg");
+	background-attachment: fixed;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.about.nav{
+	margin-bottom: 35%;
+}
+
+.header{
+	color: #FFF;
+
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project{
+	background-image: url("../img/arun.jpg");
+	background-position: 50% 40%;
+}
+
+.about{
+	background-image: url("../img/about.jpg");
+	background-position: 50% 50%;
+}
+
+.nav a{
+	color: #FFF;
+}
+
+.nav a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+.project-footer{
+	background: #4F80A2;
+	color: #96CEF6;
+}
+
+.project-footer a{
+	color: #96CEF6;
+}
+
+.project-footer a:hover{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.about-footer{
+	color: #FFF;
+
+	padding-top: 10%;
+
+	background-image: url("../img/about.jpg");
+	background-position: 50% 45%;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-footer a{
+	color: #FFF;
+}
+
+.about-footer a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+
+/*PROJECT ICONS*/
+.icon-container-left{
+	padding: 4% 0% 4% 4%;
+}
+
+.icon-container-right{
+	padding: 4% 4% 4% 0%;
+}
+
+.title{
+	margin-top: 30%;
+}
+
+img{
+	vertical-align: middle;
+}
+
+
+/*MODALS*/
+.modal{
+	max-width: 90%;
+	color: #27586B;
+}
+
+.modal iframe{
+	width: 100%;
+	height: 400px;
+}
+
+.modal video{
+	width: 30%;
+}
+
+.tree-icon{
+	background-image: url("../img/portfolio/tree_icon.jpg");	
+}
+
+.cup-icon{
+	background-image: url("../img/portfolio/cup.jpg");
+}
+
+.scream-icon{
+	background-image: url("../img/portfolio/max.png");
+}
+
+.typable-icon{
+	background-image: url("../img/portfolio/letters.png");
+}
+
+.icon-left{
+
+    /* Create the parallax scrolling effect */
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border-radius: 50%;
+
+    padding-bottom: 100%;
+}
+
+.icon-right{
+
+    /* Create the parallax scrolling effect */
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border-radius: 50%;
+
+    padding-bottom: 100%;
+}
+
+.btn, h1, p, td{
+	font-weight: 100;
+}
+
+.scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
+
+	/* important:  dimensions or positioning here! */
+}
+
+.scroll-wrapper iframe {
+	/* nada! */
+}
+
+/*MEDIA QUERIES*/
+/*@media only screen and (max-width: 700px){
+
+    .icon-right{
+		background-position: 0%;
+	}
+}*/
+
+@media only screen and (max-width: 700px){
+
+	.title{
+		margin-top: 20%;
+	}
+
+	#tree .title, #typable .title{
+		margin-top: 30%;
+	}
+
+	.subtitle{
+		display: none;
+	}
+
+	.header{
+		background-size: initial;
+		background-position: 70% 50%;
+	}
+
+	.about.header{
+		background-position: 73% 46%;
+	}
+
+	.icon-left{
+		background-attachment: scroll;
+		background-position: 30%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+
+		border-radius: 50%;
+
+		padding-bottom: 100%;
+	}
+
+	#scream .icon-left{
+		background-size: 115%;
+	}
+
+	.icon-right{
+		background-attachment: scroll;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+
+		border-radius: 50%;
+
+		padding-bottom: 100%;
+	}
+
+	.knockout{
+		background-image: url("../img/arun.jpg");
+		background-attachment: scroll;
+		background-position: 50% 70%;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+	}
+
+	.header{
+		color: #FFF;
+
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: initial;
+	}
+
+	.about-footer {
+	    color: #FFF;
+	    padding-top: 10%;
+	    background-image: url(../img/about.jpg);
+	    background-position: 73% 100%;
+	    background-attachment: scroll;
+	    background-repeat: no-repeat;
+	    background-size: initial;
+	}
+
+	.modal iframe{
+	    height: initial;
+    }
+
+    video{
+    	width: 80%
+    }
+
+    .btn{
+    	font-weight: 200;
+    }
+
+    .project-footer p, .about-footer p{
+    	font-weight: 200;
+    }
+
+
+} 
+
+@media only screen and (min-width: 1400px){
+
+	.icon-left{
+		background-size: cover;
+	}
+
+	#scream .icon-left{
+		background-size: 115%;
+	}
+
+	.icon-right{
+		background-size: cover;
+	}
+
+}
+
+/*@media only screen and (min-width : 321px) {
+	.header{
+		background-size: initial;
+	}
+
+	.icon-left{
+		background-size: cover;
+	}
+
+	#scream .icon-left{
+		background-size: 115%;
+	}
+
+	.icon-right{
+		background-size: cover;
+	}
+
+
+}*/
