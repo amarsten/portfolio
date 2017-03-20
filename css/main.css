@@ -24,7 +24,7 @@
 
 #cup{
 	background: #FD8D73;
-	color: #A76555;
+	color: #ffc1b2;
 }
 
 #scream{
@@ -32,8 +32,8 @@
 }
 
 #typable{
-	background: rgba(253, 193, 115, 1);
-	color: #A78355;
+	background: #ffbb63;
+	color: #f9e3c9;
 }
 
 #about-me{
@@ -89,12 +89,12 @@
 
 .nav a{
 	color: #FFF;
-	font-weight: 200;
+	font-weight: 500;
 }
 
 .nav a:hover{
 	text-decoration: none;
-	color: #000;
+	color: #68d2fb;
 }
 
 .project-footer{
@@ -150,7 +150,6 @@ img{
 	vertical-align: middle;
 }
 
-
 /*MODALS*/
 .modal{
 	max-width: 90%;
@@ -182,7 +181,7 @@ img{
 	background-image: url("../img/portfolio/letters.png");
 }
 
-.icon-left{
+.icon{
 
     /* Create the parallax scrolling effect */
     background-repeat: no-repeat;
@@ -191,21 +190,23 @@ img{
     border-radius: 50%;
 
     padding-bottom: 100%;
+
+    transition: all .4s linear;
+    background-position: center center;
 }
 
-.icon-right{
-
-    /* Create the parallax scrolling effect */
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-    border-radius: 50%;
-
-    padding-bottom: 100%;
+a:hover .icon, a .icon:hover{
+	background-size: 105%;
+	opacity: .6;
 }
+
+a:hover .title, a:hover .subtitle{
+	color: #68d2fb;
+}
+
 
 h1, p, td{
-	font-weight: 100;
+	font-weight: 200;
 }
 
 .scroll-wrapper {
@@ -220,12 +221,6 @@ h1, p, td{
 }
 
 /*MEDIA QUERIES*/
-/*@media only screen and (max-width: 700px){
-
-    .icon-right{
-		background-position: 0%;
-	}
-}*/
 
 @media only screen and (max-width: 700px){
 
@@ -248,32 +243,6 @@ h1, p, td{
 
 	.about.header{
 		background-position: 73% 46%;
-	}
-
-	.icon-left{
-		background-attachment: scroll;
-		background-position: 30%;
-		background-repeat: no-repeat;
-		background-size: 100%;
-
-		border-radius: 50%;
-
-		padding-bottom: 100%;
-	}
-
-	#scream .icon-left{
-		background-size: 115%;
-	}
-
-	.icon-right{
-		background-attachment: scroll;
-		background-position: 50%;
-		background-repeat: no-repeat;
-		background-size: 100%;
-
-		border-radius: 50%;
-
-		padding-bottom: 100%;
 	}
 
 	.knockout{
@@ -324,38 +293,6 @@ h1, p, td{
 
 } 
 
-@media only screen and (min-width: 1400px){
-
-	.icon-left{
-		background-size: cover;
-	}
-
-	#scream .icon-left{
-		background-size: 115%;
-	}
-
-	.icon-right{
-		background-size: cover;
-	}
+@media only screen and (max-width: 1000px){
 
 }
-
-/*@media only screen and (min-width : 321px) {
-	.header{
-		background-size: initial;
-	}
-
-	.icon-left{
-		background-size: cover;
-	}
-
-	#scream .icon-left{
-		background-size: 115%;
-	}
-
-	.icon-right{
-		background-size: cover;
-	}
-
-
-}*/
