@@ -83,7 +83,7 @@
 .project{
 }
 
-.project::before {
+.project::after {
     content: ' ';
     position: fixed;
     width: 100%;
@@ -142,20 +142,6 @@
 	color: #FFF;
 
 	padding-top: 10%;
-}
-
-.about-footer::before {
-    content: ' ';
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: white;
-    background: url("../img/about.jpg") no-repeat 50% 45%;
-    background-size: cover;
-    will-change: transform;
-    z-index: -1;
 }
 
 .about-footer a{
@@ -276,8 +262,8 @@ h1, p, td{
 		background-position: 70% 50%;
 	}
 
-	.about.header{
-		background-position: 73% 46%;
+	.about-header::after {
+	    background: url(../img/about.jpg) no-repeat 53% center;
 	}
 
 	.knockout{
@@ -297,16 +283,6 @@ h1, p, td{
 		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-size: initial;
-	}
-
-	.about-footer {
-	    color: #FFF;
-	    padding-top: 10%;
-	    background-image: url(../img/about.jpg);
-	    background-position: 73% 100%;
-	    background-attachment: scroll;
-	    background-repeat: no-repeat;
-	    background-size: initial;
 	}
 
 	.modal iframe{
