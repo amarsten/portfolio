@@ -263,7 +263,7 @@ h1, p, td{
 	}
 
 	.about-header::after {
-	    background: url(../img/about.jpg) no-repeat 53% center;
+	    background: url(../img/about.jpg) no-repeat 53% 68%;
 	}
 
 	.knockout{
