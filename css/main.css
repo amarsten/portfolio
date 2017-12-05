@@ -213,11 +213,11 @@ img{
 
     transition: all .4s linear;
     background-position: center center;
+    opacity: 0.6;
 }
 
 a:hover .icon, a .icon:hover{
-	background-size: 105%;
-	opacity: .6;
+	opacity: 1.0;
 }
 
 a:hover .title, a:hover .subtitle{
